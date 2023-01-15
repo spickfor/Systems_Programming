@@ -2,8 +2,8 @@
 
 This is the [CSE-20289-SP23] reading and homework assignments repository for:
 
-* **Name**:  Domer McDomerson
-* **NetID**: dmcdomer
+* **Name**:  Seth Pickford
+* **NetID**: spickfor
 
 ## Readings
 
