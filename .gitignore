@@ -1,0 +1,11 @@
+*~
+*.o
+*.pyc
+*.swp
+*.exe
+*.so
+*.a
+*.tar.gz
+homework01/archive
+homework01/bash
+homework02/*.lockbox
