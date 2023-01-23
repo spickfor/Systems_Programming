@@ -33,8 +33,39 @@
 	"q06": [
 		"printenv",
 		"$HOME",
-		"SHELL > /bin/bash",
-		"which"
+		"",
+		""
+	],
+
+	"q07": [
+		"huxley",
+		"tux"
+	],
+
+	"q08": [
+		"huxley",
+		"tux"
+	],
+
+	"q09": [
+		"beastie",
+		"huxley",
+		"tux"
+	],
+	
+	"q10": [
+		"600",
+		"755",
+		"750"
+	],
+
+	"q11": [
+		"z",
+		"fg",
+		"d",
+		"c",
+		"kill",
+		"killall"
 	]
 
 
