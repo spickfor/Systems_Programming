@@ -13,11 +13,25 @@
 		"traceroute"
 	},
 	"q02": {
-		"3109",
+		"2042",
 		"615",
 		"56",
 		"149",
 		"22"
 	},
-	"q03":
+	"q03": {
+		"/bin/bash exists.sh",
+		"chmod +x exists.sh",
+		"./exists.sh",
+		"PATH"
+	},
+	"q04": {
+		"shebang",
+		"argument",
+		"file"
+	},
+	"q05": {
+
+
+	}
 }
