@@ -1,46 +1,45 @@
-
 {
-	"q1": {
-		"ip",
-		"host",
-		"ping",
-		"scp",
-		"rsync",
-		"curl",
-		"ss",
-		"nmap",
-		"nc",
-		"traceroute"
-	},
-	"q02": {
-		"2042",
-		"615",
-		"56",
-		"149",
-		"22"
-	},
-	"q03": {
-		"/bin/bash exists.sh",
-		"chmod +x exists.sh",
-		"./exists.sh",
-		"PATH"
-	},
-	"q04": {
-		"shebang",
-		"argument",
-		"file"
-	},
-	"q05": {
-   		 "$#",
-  		  "-lt",
- 		  "1",
- 		  "0",
- 		  "$@",
-  		  "-e",
-  		  "$arg",
-  		  "$arg",
-  		  "$arg",
-  		  "1",
- 		  "$EXITCODE"
-	}	
+  "q1": [
+    "ip",
+    "host",
+    "ping",
+    "scp",
+    "rsync",
+    "curl",
+    "ss",
+    "nmap",
+    "nc",
+    "traceroute"
+  ],
+  "q2": [
+    "2042",
+    "615",
+    "56",
+    "149",
+    "22"
+  ],
+  "q3": [
+    "/bin/bash exists.sh",
+    "chmod +x exists.sh",
+    "./exists.sh",
+    "PATH"
+  ],
+  "q4": [
+    "shebang",
+    "argument",
+    "file"
+  ],
+  "q5": [
+    "$#",
+    "-lt",
+    "1",
+    "0",
+    "$@",
+    "-e",
+    "$arg",
+    "$arg",
+    "$arg",
+    "1",
+    "$EXITCODE"
+  ]
 }
