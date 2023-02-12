@@ -1,0 +1,46 @@
+{
+    "q1": [
+      "master",
+      "rebase",
+      "checkout",
+      "branch"
+    ],
+    "q2": [
+      "add",
+      "commit",
+      "push",
+      "log"
+    ],
+    "q3": [
+      "stat",
+      "ln",
+      "chmod",
+      "find"
+    ],
+    "q4": [
+      "^c",
+      "^z",
+      "kill 4000",
+      "pkill -9 HOGLIN"
+    ],
+    "q5": [
+      "du_stdout",
+      "du_null",
+      "sort_stdout"
+    ],
+    "q6": [
+      "nmap",
+      "curl http://xavier.h4x0r.space:9206",
+      "ping xavier.h4x0r.space"
+    ],
+    "q7": [
+      "for file in \"$@\"; do",
+      ""
+    ],
+    "q8": [
+      "test -r \"$1\"",
+      "while [ $# -gt 0 ]; do",
+      "",
+      "shift"
+    ]
+  }
