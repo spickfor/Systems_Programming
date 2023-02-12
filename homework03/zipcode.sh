@@ -33,8 +33,8 @@ while [ "$#" -gt 0 ]; do
 done
 
 if [ -n "$CITY" ]; then
-	echo "$(state_information)" | grep -E "\/$CITY\/" | grep -Eo [0-9]{5} | sort -n | uniq
+	state_information | grep -E "\/$CITY\/" | grep -Eo [0-9]{5} | sort -n | uniq
    else
-	echo "$(state_information)" | grep -Eo /[0-9]{5}/ | tr -d '/'|sort -n | uniq 
+	state_information | grep -Eo /[0-9]{5}/ | tr -d '/'|sort -n | uniq 
 fi
 
