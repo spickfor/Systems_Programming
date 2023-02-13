@@ -35,12 +35,12 @@
     ],
     "q7": [
       "for file in \"$@\"; do",
-      ""
+      "[ -r \"$file\" ] && echo \"$file is readable!\""
     ],
     "q8": [
       "test -r \"$1\"",
       "while [ $# -gt 0 ]; do",
-      "",
+      "is_readable \"$1\" && echo \"$1 is readable!\"",
       "shift"
     ]
   }
