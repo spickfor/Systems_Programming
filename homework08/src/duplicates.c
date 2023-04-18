@@ -8,7 +8,7 @@
 #include <limits.h>
 #include <sys/stat.h>
 
-// S_IFDIR wasn't working, here is a suggested fix:
+// to make S_IFDIR work
 #ifndef S_IFDIR
 #define S_IFDIR 0040000
 #endif
@@ -41,7 +41,7 @@ void usage(int status) {
 bool is_directory(const char *path) {
     struct stat s;
     if(!stat(path, &s)){
-        if(s.st_mode & S_IFDIR){
+        if(s.st_mode&S_IFDIR){
             return true;
         }
     }
@@ -69,7 +69,6 @@ size_t check_file(const char *path, Table *checksums, Options *options) {
     if(v!=NULL){
         if(options->quiet){
             table_delete(checksums);
-            free(options);
             free(hex);
             exit(0);
         }else if(!options->count){
