@@ -1,0 +1,25 @@
+CC=             gcc
+CFLAGS=         -g -Wall -Werror -std=gnu99
+TARGETS=        doit
+
+all:            $(TARGETS)
+
+# TODO: Add rule for doit
+
+test:
+	        @$(MAKE) -sk test-all
+
+test-all:	test-doit
+
+test-doit:	doit
+	curl -sLO https://raw.githubusercontent.com/nd-cse-20289-sp23/cse-20289-sp23-assignments/master/reading13/test_doit.sh
+	chmod +x test_doit.sh
+	./test_doit.sh
+
+doit:		doit.c
+		$(CC) $(CFLAGS) -o doit doit.c
+
+clean:
+	rm -f $(TARGETS)
+
+.SUFFIXES:
